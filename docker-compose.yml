@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+  demoawsjar:
+    build: ../demoawswar
+    image: demoawswar
+    container_name: demoawswar
+    restart: always
+    network_mode: host
